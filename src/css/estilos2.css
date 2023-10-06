@@ -1,0 +1,68 @@
+/* Contato */
+#contato {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  background-color: #ffffff;
+  padding: 20px;
+  color: #010d13;
+  text-align: left;
+  margin-top: -10px;
+}
+
+#contato h2 {
+  text-align: center;
+}
+
+#contato form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#contato label,
+#contato input,
+#contato select,
+#contato textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contato input,
+#contato select,
+#contato textarea {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #010d13;
+}
+
+#contato input {
+  width: 400px;
+  background-color: #010d13;
+  color: #ffffff;
+}
+
+#contato select {
+  background-color: #010d13;
+  color: #ffffff;
+}
+
+#contato textarea {
+  height: 150px;
+  background-color: #010d13;
+  color: #ffffff;
+}
+
+#contato ::placeholder {
+  color: #f0f0f0;
+}
+
+#contato input[type="submit"] {
+  background-color: #010d13;
+  color: #ffffff;
+  border: 2px solid #000000;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#contato input[type="submit"]:hover {
+  background-color: #222;
+}
